@@ -20,23 +20,22 @@ body {
     font-size: 15px;
 }
 
-#brands {
+
+/* #brands {
     padding: 2% 15%;
     text-align: center;
-}
+} */
 
 #brands img {
     width: 50px;
-    margin-top: auto;
+    /* margin-top: auto;
     margin-right: 90px;
-    margin-left: 90px;
+    margin-left: 90px; */
 }
 
 #featured {
-    text-align: center;
-    font-size: 35px;
+    font-size: 23px;
     letter-spacing: 5px;
-    font-weight: bold;
 }
 
 #nav {
@@ -47,6 +46,15 @@ body {
     margin-top: -8px;
     margin-left: -19px;
     width: 50px;
+}
+
+#cardShadow {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+#cardShadow:hover {
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 5px 15px;
 }
 
 #footer {
@@ -112,8 +120,8 @@ p {
         margin: 20px 10px 0px 10px;
     }
     #featured {
-        font-size: 20px;
-        letter-spacing: 3px;
+        font-size: 13px;
+        letter-spacing: normal;
     }
     .footer-txt {
         font-size: 15px;
@@ -123,9 +131,6 @@ p {
     }
     #brands img {
         width: 30px;
-        margin-top: 30px;
-        margin-right: 10px;
-        margin-left: 10px;
     }
     #buybtn a {
         margin-left: 27px;
