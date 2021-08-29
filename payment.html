@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vision mobiles</title>
+</head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/assets/vendor/Bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+<body>
+    <div id="header"></div>
+    <br><br><br>
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="card wish-list mb-3">
+                        <div class="card-body">
+                            <h5 class="mb-4">Cart (<span>1</span> items)</h5>
+                            <div class="row mb-4">
+                                <div class="col-md-5 col-lg-3 col-xl-3">
+                                    <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                                        <img class="img-fluid w-100" src="img/apple12promax1.png" alt="Sample">
+                                        <a href="#!">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-9 col-xl-9">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <h5>Apple 12 Pro Max</h5>
+                                                <p class="mb-2 text-muted text-uppercase small">Size : (512GB)</p>
+                                                <p class="mb-2 text-muted text-uppercase small">color : Graphite</p>
+                                            </div>
+                                            <div>
+                                                <div class="def-number-input number-input safari_only mb-0 w-100">
+                                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="btn btn-sm btn-warning fw-bold mb-1">-</button>
+                                                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="btn btn-sm btn-warning fw-bold mb-1">+</button>
+                                                </div>
+                                                <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                                                    (Note, 1 piece)
+                                                </small>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                            </div>
+                                            <p class="mb-0"><span><strong>₹1,22,900</strong></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="mb-1">
+                            <div class="row mb-1">
+                            </div>
+                            <p class="text-primary mb-0"><i class="fas fa-info-circle mr-1"></i> Do not delay the purchase, adding items to your cart does not mean booking them.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="mb-4">Expected shipping delivery</h5>
+                            <p class="mb-0"> Thu., 12.03. - Mon., 16.03.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <form>
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">First name</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Last name</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Text input -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Email</label>
+                                    <input type="email" id="" class="form-control" />
+                                </div>
+
+                                <!-- Number input -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Phone</label>
+                                    <input type="number" id="" class="form-control" />
+                                </div>
+
+                                <!-- Text input -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Address</label>
+                                    <textarea id="" class="form-control"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-5">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="mb-4">We accept</h5>
+                            <img class="mr-2" width="45px" src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg" alt="Visa">
+                            <img class="mr-2" width="45px" src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg" alt="American Express">
+                            <img class="mr-2" width="45px" src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg" alt="Mastercard">
+                        </div>
+                    </div>
+
+
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <center>
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Card Holder Name</label>
+                                    <input type="email" id="" class="form-control" />
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="">Card Number</label>
+                                    <input type="number" id="" class="form-control" />
+                                </div>
+                                <div class=" d-flex justify-content-between">
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="">Expiry</label>
+                                        <input type="number" id="" class="form-control" />
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="">CVV</label>
+                                        <input type="number" id="" class="form-control" />
+                                    </div>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="mb-3">The total amount of</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                    Temporary amount
+                                    <span>₹1,22,900</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Shipping
+                                    <span>Apple</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                    <div>
+                                        <strong>The total amount of</strong>
+                                        <strong>
+                                            <p class="mb-0">(including VAT)</p>
+                                        </strong>
+                                    </div>
+                                    <span><strong>₹1,23,400</strong></span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary btn-block waves-effect waves-light">Place
+                                Order</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <a class="dark-grey-text d-flex justify-content-between" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Add a discount code (optional)
+                                <span><i class="fas fa-chevron-down pt-1"></i></span>
+                            </a>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="mt-3">
+                                    <div class="md-form md-outline mb-0">
+                                        <input type="text" id="discount-code1" class="form-control font-weight-light" placeholder="Enter discount code">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="footer"></div>
+    <script src="/assets/vendor/Jquery/jquery.js"></script>
+    <script src="/assets/vendor/Bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#header").load("header.html")
+            $("#footer").load("footer.html")
+        })
+    </script>
+
+</body>
+
+</html>
