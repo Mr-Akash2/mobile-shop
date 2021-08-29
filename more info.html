@@ -15,19 +15,47 @@
 
 <body>
     <div id="header"></div>
-    <br><br>
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-4" id="buybtn">
-                <img src="./img/apple12promax1.png" class="card-img-top" alt="...">
-                <div class="btn-group"></div>
-                <a href="./payment.html" class="btn btn-info">Add To Cart</a>
-                <a href="./payment.html" class="btn btn-warning">Buy Now</a>
+            <div class="col-lg-4">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/apple12promax1.png" class="d-block w-100" alt="1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/apple121.png" class="d-block w-100" alt="1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/apple11pro1.png" class="d-block w-100" alt="1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/apple11promax1.png" class="d-block w-100" alt="1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle-fill text-black" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                          </svg>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle-fill text-black" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                          </svg>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <a href="./payment.html" class="btn btn-info fw-bold">Add To Cart</a>
+                    <a href="./payment.html" class="btn btn-warning fw-bold">Buy Now</a>
+                </div>
             </div>
 
             <div class="col-lg-8" id="mobilehead"><br><br>
                 <h2><b>Apple 12 Pro Max (512GB)-Graphite</b></h2>
-                <h3><b>Price : </b>₹1,22,900&nbsp&nbsp<del>₹1,29,900</del><br>5% off</h3><br>
+                <h3><b>Price : </b>₹1,22,900&nbsp&nbsp<del><span class="fs-6">₹1,29,900</span></del><br>5% off</h3><br>
                 <h3><b>Specification :-</b></h3>
                 <ul>
                     <li>6.7-inch (17 cm diagonal) Super Retina XDR display</li>

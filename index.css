@@ -20,6 +20,10 @@ body {
     font-size: 15px;
 }
 
+#header {
+    margin-bottom: 75px;
+}
+
 
 /* #brands {
     padding: 2% 15%;
