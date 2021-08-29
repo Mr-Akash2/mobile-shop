@@ -24,6 +24,10 @@ body {
     margin-bottom: 75px;
 }
 
+.poster {
+    height: 70vh;
+}
+
 
 /* #brands {
     padding: 2% 15%;
@@ -31,7 +35,7 @@ body {
 } */
 
 #brands img {
-    width: 50px;
+    width: 40px;
     /* margin-top: auto;
     margin-right: 90px;
     margin-left: 90px; */
@@ -124,8 +128,11 @@ p {
         margin: 20px 10px 0px 10px;
     }
     #featured {
-        font-size: 13px;
+        font-size: 10px;
         letter-spacing: normal;
+    }
+    .poster {
+        height: 30vh;
     }
     .footer-txt {
         font-size: 15px;
@@ -134,7 +141,7 @@ p {
         margin-left: 0;
     }
     #brands img {
-        width: 30px;
+        width: 20px;
     }
     #buybtn a {
         margin-left: 27px;
