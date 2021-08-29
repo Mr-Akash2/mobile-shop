@@ -24,21 +24,8 @@ body {
     margin-bottom: 75px;
 }
 
-.poster {
-    height: 70vh;
-}
-
-
-/* #brands {
-    padding: 2% 15%;
-    text-align: center;
-} */
-
 #brands img {
     width: 40px;
-    /* margin-top: auto;
-    margin-right: 90px;
-    margin-left: 90px; */
 }
 
 #featured {
@@ -122,7 +109,7 @@ p {
     background-color: blue;
 }
 
-@media (max-width:420px) {
+@media (max-width:600px) {
     .social-media {
         width: 8%;
         margin: 20px 10px 0px 10px;
@@ -130,9 +117,6 @@ p {
     #featured {
         font-size: 10px;
         letter-spacing: normal;
-    }
-    .poster {
-        height: 30vh;
     }
     .footer-txt {
         font-size: 15px;
